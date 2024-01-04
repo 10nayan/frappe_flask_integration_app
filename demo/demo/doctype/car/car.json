@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:car_id",
+ "creation": "2024-01-04 17:48:36.392112",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "car_id",
+  "colour_id",
+  "arabic_name",
+  "english_name",
+  "year",
+  "launch_date",
+  "company",
+  "model"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_id",
+   "fieldtype": "Data",
+   "label": "Car ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "colour_id",
+   "fieldtype": "Link",
+   "label": "Colour ID",
+   "options": "Colour"
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name"
+  },
+  {
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "label": "English Name"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Int",
+   "label": "Year"
+  },
+  {
+   "fieldname": "launch_date",
+   "fieldtype": "Date",
+   "label": "Launch Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-04 19:28:23.534201",
+ "modified_by": "Administrator",
+ "module": "Demo",
+ "name": "Car",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
